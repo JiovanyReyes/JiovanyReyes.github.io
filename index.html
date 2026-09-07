@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Jiovany Reyes — Data Analyst and Data Scientist portfolio featuring Tableau, Power BI, Excel, Python, SQL, and AWS projects." />
+  <meta name="description" content="Jiovany Reyes — Data Analyst, Business Intelligence, and Data Science portfolio featuring Tableau, Power BI, Excel, Python, SQL, and AWS projects." />
   <title>Jiovany Reyes | Data Analytics Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,10 +13,14 @@
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="#top">JR</a>
+      <a class="brand-lockup" href="#top" aria-label="Jiovany Reyes home">
+        <span class="brand-mark">JR</span>
+        <span class="brand-name">Jiovany Reyes</span>
+      </a>
       <nav class="nav">
         <a href="#projects">Projects</a>
         <a href="#about">About</a>
+        <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
         <a href="#resume">Résumé</a>
         <a href="#contact">Contact</a>
@@ -29,15 +33,16 @@
     <section class="hero section">
       <div class="container hero-grid">
         <div>
+          <p class="name-kicker">JIOVANY REYES</p>
           <p class="eyebrow">DATA ANALYST • BUSINESS INTELLIGENCE • DATA SCIENCE</p>
           <h1>Turning complex data into <span>clear, actionable insights.</span></h1>
           <p class="hero-copy">
-            I’m Jiovany “Jio” Reyes, a data-driven operations professional and Data Science graduate
-            with experience across analytics, technical operations, UAT, and customer experience.
+            Data Science graduate and technology professional combining analytics, business intelligence,
+            and operational experience to uncover insights, improve processes, and support better decision-making.
           </p>
           <div class="hero-actions">
             <a class="btn primary" href="#projects">Explore My Work</a>
-            <a class="btn secondary" href="#resume">View Résumé</a>
+            <a class="btn secondary" href="resume.pdf" target="_blank" rel="noopener">View Résumé</a>
           </div>
           <div class="tool-row">
             <span>Tableau</span><span>Power BI</span><span>Excel</span><span>Python</span><span>SQL</span><span>AWS</span>
@@ -52,9 +57,9 @@
             and communicate findings in a way stakeholders can act on.
           </p>
           <div class="mini-stats">
-            <div><strong>7+</strong><span>Years professional experience</span></div>
-            <div><strong>BS</strong><span>Data Science</span></div>
-            <div><strong>6</strong><span>Core analytics tools</span></div>
+            <div><strong>7+</strong><span>Years of professional experience</span></div>
+            <div><strong>B.S.</strong><span>Data Science</span></div>
+            <div><strong>2026</strong><span>UMGC graduate</span></div>
           </div>
         </aside>
       </div>
@@ -67,7 +72,10 @@
             <p class="eyebrow">SELECTED WORK</p>
             <h2>Projects & Case Studies</h2>
           </div>
-          <p class="section-copy">A growing collection of analytics, visualization, machine learning, and cloud projects.</p>
+          <p class="section-copy">
+            A focused collection of analytics, visualization, machine learning, and cloud work.
+            Finished case studies will replace the current project previews as they are completed.
+          </p>
         </div>
 
         <div class="filters" role="group" aria-label="Project filters">
@@ -76,30 +84,31 @@
           <button class="filter" data-filter="powerbi">Power BI</button>
           <button class="filter" data-filter="excel">Excel</button>
           <button class="filter" data-filter="python">Python</button>
+          <button class="filter" data-filter="sql">SQL</button>
           <button class="filter" data-filter="aws">AWS</button>
         </div>
 
         <div class="project-grid">
           <article class="project-card" data-category="tableau excel">
             <div class="project-visual visual-1">
-              <div class="visual-placeholder">Dashboard Preview</div>
+              <div class="visual-placeholder">Tableau Dashboard Preview</div>
             </div>
             <div class="project-body">
               <div class="project-meta"><span>Tableau</span><span>Excel</span></div>
               <h3>Used Vehicle Market & Pricing Analysis</h3>
               <p>Analyze used-car listings to identify pricing trends, market patterns, and factors that influence vehicle value.</p>
-              <a href="#" class="project-link" aria-label="View case study for Used Vehicle Market & Pricing Analysis">Case study coming soon →</a>
+              <a href="#" class="project-link" aria-label="Used Vehicle Market and Pricing Analysis">Case study coming soon →</a>
             </div>
           </article>
 
-          <article class="project-card" data-category="powerbi excel">
+          <article class="project-card" data-category="powerbi excel sql">
             <div class="project-visual visual-2">
-              <div class="visual-placeholder">Power BI Preview</div>
+              <div class="visual-placeholder">Power BI Dashboard Preview</div>
             </div>
             <div class="project-body">
-              <div class="project-meta"><span>Power BI</span><span>DAX</span></div>
+              <div class="project-meta"><span>Power BI</span><span>Power Query</span><span>DAX</span></div>
               <h3>Executive Sales Performance Dashboard</h3>
-              <p>Portfolio project planned to demonstrate KPI design, Power Query, data modeling, DAX, and executive-level storytelling.</p>
+              <p>Portfolio project focused on KPI design, data modeling, DAX, Power Query, and executive-level storytelling.</p>
               <a href="#" class="project-link">Project in development →</a>
             </div>
           </article>
@@ -116,39 +125,15 @@
             </div>
           </article>
 
-          <article class="project-card" data-category="python">
+          <article class="project-card" data-category="aws sql">
             <div class="project-visual visual-4">
-              <div class="visual-placeholder">Fairness Analysis Preview</div>
-            </div>
-            <div class="project-body">
-              <div class="project-meta"><span>Python</span><span>AIF360</span></div>
-              <h3>Responsible AI & Model Fairness</h3>
-              <p>Evaluate fairness metrics and preprocessing strategies across multiple machine-learning models.</p>
-              <a href="#" class="project-link">Case study coming soon →</a>
-            </div>
-          </article>
-
-          <article class="project-card" data-category="aws">
-            <div class="project-visual visual-5">
               <div class="visual-placeholder">AWS Architecture Preview</div>
             </div>
             <div class="project-body">
               <div class="project-meta"><span>AWS</span><span>Data Architecture</span></div>
               <h3>Conceptual AWS Data Pipeline Architecture</h3>
-              <p>Design a cloud data pipeline spanning storage, database, processing, and analytics services.</p>
+              <p>Design a cloud data pipeline spanning storage, databases, processing, and analytics services.</p>
               <a href="#" class="project-link">Case study coming soon →</a>
-            </div>
-          </article>
-
-          <article class="project-card" data-category="excel">
-            <div class="project-visual visual-6">
-              <div class="visual-placeholder">Excel Dashboard Preview</div>
-            </div>
-            <div class="project-body">
-              <div class="project-meta"><span>Excel</span><span>Power Query</span></div>
-              <h3>Excel Analytics & KPI Dashboard</h3>
-              <p>Dedicated portfolio project for showcasing PivotTables, Power Query, formulas, KPI tracking, and dashboard design.</p>
-              <a href="#" class="project-link">Project in development →</a>
             </div>
           </article>
         </div>
@@ -164,13 +149,35 @@
         <div class="about-copy">
           <p>
             My career has been centered on technology, operations, and customer experience. Through my work at Apple,
-            I developed a strong interest in the data behind operational decisions—what drives performance, where
-            inefficiencies exist, and how better analysis can improve outcomes.
+            I became increasingly interested in the data behind operational decisions—what drives performance,
+            where inefficiencies exist, and how better analysis can improve outcomes.
           </p>
           <p>
-            I earned my Bachelor of Science in Data Science from the University of Maryland Global Campus and now bring
-            together hands-on operational experience with analytics, visualization, testing, and technical problem-solving.
+            I earned my Bachelor of Science in Data Science from the University of Maryland Global Campus and now
+            bring together hands-on operational experience with analytics, visualization, testing, and technical problem-solving.
           </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section compact-section">
+      <div class="container">
+        <div class="experience-strip">
+          <div class="experience-item">
+            <p class="small-label">APPLE</p>
+            <h3>Genius Admin · Retail UAT Tester</h3>
+            <p>Operations, testing, KPI awareness, process improvement, and cross-functional collaboration.</p>
+          </div>
+          <div class="experience-item">
+            <p class="small-label">EDUCATION</p>
+            <h3>B.S. Data Science · UMGC</h3>
+            <p>Machine learning, big data systems, data visualization, statistical modeling, and cloud computing.</p>
+          </div>
+          <div class="experience-item">
+            <p class="small-label">FOCUS</p>
+            <h3>Analytics · BI · Data Science</h3>
+            <p>Turning data into clear insights, practical recommendations, and better business decisions.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -213,7 +220,7 @@
         <div>
           <p class="eyebrow">RÉSUMÉ</p>
           <h2>Experience across analytics, operations, and technology.</h2>
-          <p>Add your résumé PDF to this repository as <code>resume.pdf</code>, then the button will work automatically.</p>
+          <p>Explore my professional experience, technical skills, education, and data-focused career background.</p>
         </div>
         <a class="btn primary" href="resume.pdf" target="_blank" rel="noopener">View Résumé</a>
       </div>
@@ -222,11 +229,15 @@
     <section id="contact" class="section">
       <div class="container contact-box">
         <p class="eyebrow">LET'S CONNECT</p>
-        <h2>Interested in data analytics, business intelligence, data science, and technology-focused opportunities.</h2>
+        <h2>Let’s turn data into better decisions.</h2>
+        <p class="contact-copy">
+          I’m currently exploring opportunities in data analytics, business intelligence, data science,
+          and technology. If you think my background could be a fit for your team, I’d love to connect.
+        </p>
         <div class="contact-links">
-          <a href="mailto:r.jiovany@yahoo.com">Email</a>
-          <a href="#" aria-label="Add your LinkedIn URL here">LinkedIn</a>
-          <a href="#" aria-label="Add your GitHub URL here">GitHub</a>
+          <a href="mailto:r.jiovany@yahoo.com">Email ↗</a>
+          <a href="https://www.linkedin.com/in/jiovany-reyes" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/JiovanyReyes" target="_blank" rel="noopener">GitHub ↗</a>
         </div>
       </div>
     </section>
@@ -235,7 +246,7 @@
   <footer>
     <div class="container footer-wrap">
       <span>© <span id="year"></span> Jiovany Reyes</span>
-      <span>Built for GitHub Pages</span>
+      <span>Data Analytics Portfolio</span>
     </div>
   </footer>
 
